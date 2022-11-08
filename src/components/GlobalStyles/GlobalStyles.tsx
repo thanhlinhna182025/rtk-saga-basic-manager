@@ -1,3 +1,5 @@
+import './GlobalStyles.module.scss';
+
 interface GlobalStylesProps {
   children: JSX.Element;
 }
