@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  width: 20%;
+  height: 20%;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px var(--secondary-color);
+  border-radius: 5px;
+}
+.button {
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px #ccc;
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--primary-color-opacity);
+  }
+}
